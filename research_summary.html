@@ -33,6 +33,33 @@
 <h1>Recent Research Topics</h1>
 </div>
 <p>Personal use of this material is permitted. Permission from IEEE or other publishers must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. Please refer to the <a href="http://www.ieee.org/publications_standards/publications/rights/copyrightpolicy.html">IEEE Copyright Policy</a>, <a href="http://www.acm.org/publications/policies/copyright_policy">ACM Copyright Policy</a> or copyrights of other publishers of the following publications.</p>
+<h2>RSMA-Enabled RIS-Assisted Integrated Sensing and Communication for 6G: A Comprehensive Survey</h2>
+<table class="imgtable"><tr><td>
+<a href="RSMA_RIS_ISAC.png"><img src="RSMA_RIS_ISAC.png" alt="alt text" width="800px" /></a>&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>Next-generation wireless communication systems are expected to handle sensing and communication on a shared hardware platform jointly. This survey examines the integration of rate-splitting multiple access (RSMA), reconfigurable intelligent surface (RIS), and integrated sensing and communication (ISAC) for 6G. RSMA offers a flexible interference management framework, RIS introduces a programmable wireless propagation environment, and ISAC enables simultaneous data transmission and environmental sensing. The survey covers fundamental principles, mathematical models, and performance metrics for RSMA-RIS-ISAC systems. A comparative analysis of 20 recent works demonstrates that RSMA consistently outperforms NOMA and SDMA in spectral efficiency, energy efficiency, and sensing accuracy. The role of artificial intelligence and machine learning in addressing the non-convex optimization challenges of these systems is also examined, along with open research directions toward practical 6G deployment.</p>
+<ol>
+<li><p>A.-M. Zakari Adams and A. Abdelhadi: &ldquo;RSMA-enabled RIS-assisted Integrated Sensing and Communication for 6G: A Comprehensive Survey,&rdquo; IEEE Access, vol. 14, pp. 38392-38420, 2026. (<a href="https://ieeexplore.ieee.org/abstract/document/11426895">IEEE <i>Xplore</i></a>)</p>
+</li>
+</ol>
+<h2>QAOA-Based Multi-Hop Relay Path Selection Using Fade Duration</h2>
+<table class="imgtable"><tr><td>
+<a href="QAOA_AFD.png"><img src="QAOA_AFD.png" alt="alt text" width="800px" /></a>&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>Cooperative multi-hop relaying is a fundamental strategy for extending coverage in 6G networks, and relay path selection directly influences end-to-end reliability. Conventional approaches use the signal-to-noise ratio as the link-quality parameter and either a greedy or an exhaustive search as the solver. However, SNR only measures average channel strength and ignores the temporal duration of fade events, which determines burst-error performance in delay-sensitive traffic. This study presents a relay path selection system based on the quantum approximate optimization algorithm (QAOA), with average fade duration (AFD) as the edge metric. The problem is expressed as a quadratic unconstrained binary optimization, which is addressed through a depth-two QAOA circuit over an eight-qubit two-tier decode-and-forward (DF) relay network. Simulation results show that QAOA-AFD closely follows the optimum exhaustive search approach and reduces total path AFD by up to 37% compared to conventional SNR-based selection. The comparison analysis also demonstrates that the choice of edge metric, not solver quality, is the most important factor in path performance.</p>
+<ol>
+<li><p>A.-M. Zakari Adams, A. R. Hussein, S. Vishwanath, E. Hossain, Z. Han, and A. Abdelhadi: &ldquo;QAOA-Based Multi-Hop Relay Path Selection Using Fade Duration,&rdquo; IEEE Cyber Awareness and Research Symposium (CARS) 2026. (accepted)</p>
+</li>
+</ol>
+<h2>Password Recovery using Partitioned Grover's Algorithm</h2>
+<table class="imgtable"><tr><td>
+<a href="Grover_password.png"><img src="Grover_password.png" alt="alt text" width="800px" /></a>&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>Grover's algorithm provides a quadratic speedup over classical brute-force search and poses a credible threat to password-based authentication systems, including bcrypt, PBKDF2, and Argon2. Direct application to realistic password lengths is, however, limited by existing NISQ hardware: restricted qubit counts and short coherence durations make full-circuit execution unfeasible. This paper describes the first actual Qiskit implementation of a partitioned Grover framework, which splits the password into two parts: a quantum part searched by Grover's algorithm and a classical part enumerated by the coordinator. A formal threshold-based detection criterion separates correct and incorrect classical partitions. The framework is expanded to partition sizes of m = 3, 4, 5, and 6 qubits, and the simulated success probability is within 0.001 of the theoretical prediction for all tested sizes. Under a fixed five-qubit hardware budget, the partitioned circuit can handle passwords up to seven bits long with a steady success probability, but the regular Grover circuit becomes infeasible for n &gt; 5. Each extra qubit reduces the classical computational burden exponentially, but quantum work grows only sub-linearly.</p>
+<ol>
+<li><p>A.-M. Zakari Adams and A. Abdelhadi: &ldquo;Password Recovery using Partitioned Grover's Algorithm,&rdquo; IEEE CARS 2026. (accepted)</p>
+</li>
+</ol>
 <h2>Modulation Classification Resiliency Against Adversarial Attacks using Mixture GAN</h2>
 <table class="imgtable"><tr><td>
 <a href="Secure_OTA_Radio_GAN_Sim.png"><img src="Secure_OTA_Radio_GAN_Sim.png" alt="alt text" width="800px" /></a>&nbsp;</td>
@@ -345,7 +372,7 @@ device failures. The detection for DDoS attack and emergency senarios involves b
 </ol>
 <div id="footer">
 <div id="footer-text">
-Page generated 2026-08-20 12:41:18 CDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2026-08-20 13:02:48 CDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>

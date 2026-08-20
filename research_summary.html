@@ -33,15 +33,6 @@
 <h1>Recent Research Topics</h1>
 </div>
 <p>Personal use of this material is permitted. Permission from IEEE or other publishers must be obtained for all other uses, in any current or future media, including reprinting/republishing this material for advertising or promotional purposes, creating new collective works, for resale or redistribution to servers or lists, or reuse of any copyrighted component of this work in other works. Please refer to the <a href="http://www.ieee.org/publications_standards/publications/rights/copyrightpolicy.html">IEEE Copyright Policy</a>, <a href="http://www.acm.org/publications/policies/copyright_policy">ACM Copyright Policy</a> or copyrights of other publishers of the following publications.</p>
-<h2>RSMA-Enabled RIS-Assisted Integrated Sensing and Communication for 6G: A Comprehensive Survey</h2>
-<table class="imgtable"><tr><td>
-<a href="RSMA_RIS_ISAC.png"><img src="RSMA_RIS_ISAC.png" alt="alt text" width="800px" /></a>&nbsp;</td>
-<td align="left"></td></tr></table>
-<p>Next-generation wireless communication systems are expected to handle sensing and communication on a shared hardware platform jointly. This survey examines the integration of rate-splitting multiple access (RSMA), reconfigurable intelligent surface (RIS), and integrated sensing and communication (ISAC) for 6G. RSMA offers a flexible interference management framework, RIS introduces a programmable wireless propagation environment, and ISAC enables simultaneous data transmission and environmental sensing. The survey covers fundamental principles, mathematical models, and performance metrics for RSMA-RIS-ISAC systems. A comparative analysis of 20 recent works demonstrates that RSMA consistently outperforms NOMA and SDMA in spectral efficiency, energy efficiency, and sensing accuracy. The role of artificial intelligence and machine learning in addressing the non-convex optimization challenges of these systems is also examined, along with open research directions toward practical 6G deployment.</p>
-<ol>
-<li><p>A.-M. Zakari Adams and A. Abdelhadi: &ldquo;RSMA-enabled RIS-assisted Integrated Sensing and Communication for 6G: A Comprehensive Survey,&rdquo; IEEE Access, vol. 14, pp. 38392-38420, 2026. (<a href="https://ieeexplore.ieee.org/abstract/document/11426895">IEEE <i>Xplore</i></a>)</p>
-</li>
-</ol>
 <h2>QAOA-Based Multi-Hop Relay Path Selection Using Fade Duration</h2>
 <table class="imgtable"><tr><td>
 <a href="QAOA_AFD.png"><img src="QAOA_AFD.png" alt="alt text" width="800px" /></a>&nbsp;</td>
@@ -58,6 +49,41 @@
 <p>Grover's algorithm provides a quadratic speedup over classical brute-force search and poses a credible threat to password-based authentication systems, including bcrypt, PBKDF2, and Argon2. Direct application to realistic password lengths is, however, limited by existing NISQ hardware: restricted qubit counts and short coherence durations make full-circuit execution unfeasible. This paper describes the first actual Qiskit implementation of a partitioned Grover framework, which splits the password into two parts: a quantum part searched by Grover's algorithm and a classical part enumerated by the coordinator. A formal threshold-based detection criterion separates correct and incorrect classical partitions. The framework is expanded to partition sizes of m = 3, 4, 5, and 6 qubits, and the simulated success probability is within 0.001 of the theoretical prediction for all tested sizes. Under a fixed five-qubit hardware budget, the partitioned circuit can handle passwords up to seven bits long with a steady success probability, but the regular Grover circuit becomes infeasible for n &gt; 5. Each extra qubit reduces the classical computational burden exponentially, but quantum work grows only sub-linearly.</p>
 <ol>
 <li><p>A.-M. Zakari Adams and A. Abdelhadi: &ldquo;Password Recovery using Partitioned Grover's Algorithm,&rdquo; IEEE CARS 2026. (accepted)</p>
+</li>
+</ol>
+<h2>RSMA-Enabled RIS-Assisted Integrated Sensing and Communication for 6G</h2>
+<table class="imgtable"><tr><td>
+<a href="RSMA_RIS_ISAC.png"><img src="RSMA_RIS_ISAC.png" alt="alt text" width="800px" /></a>&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>Next-generation wireless communication systems are expected to handle sensing and communication on a shared hardware platform jointly. This survey examines the integration of rate-splitting multiple access (RSMA), reconfigurable intelligent surface (RIS), and integrated sensing and communication (ISAC) for 6G. RSMA offers a flexible interference management framework, RIS introduces a programmable wireless propagation environment, and ISAC enables simultaneous data transmission and environmental sensing. The survey covers fundamental principles, mathematical models, and performance metrics for RSMA-RIS-ISAC systems. A comparative analysis of 20 recent works demonstrates that RSMA consistently outperforms NOMA and SDMA in spectral efficiency, energy efficiency, and sensing accuracy. The role of artificial intelligence and machine learning in addressing the non-convex optimization challenges of these systems is also examined, along with open research directions toward practical 6G deployment.</p>
+<ol>
+<li><p>A.-M. Zakari Adams and A. Abdelhadi: &ldquo;RSMA-enabled RIS-assisted Integrated Sensing and Communication for 6G: A Comprehensive Survey,&rdquo; IEEE Access, vol. 14, pp. 38392-38420, 2026. (<a href="https://ieeexplore.ieee.org/abstract/document/11426895">IEEE <i>Xplore</i></a>)</p>
+</li>
+</ol>
+<h2>Semantic Communication for Reliable and Secure Wireless Image Transmission</h2>
+<table class="imgtable"><tr><td>
+<a href="MU_MIMO_Semantic.png"><img src="MU_MIMO_Semantic.png" alt="alt text" width="800px" /></a>&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>The explosive growth of image traffic in social media, the Internet of Things, and autonomous systems has made reliable image delivery a central challenge of next-generation wireless networks. Conventional systems pursue a deceptively simple goal — reproduce every transmitted bit — which serves us well on benign channels but degrades sharply under the noise, deep fading, and intentional jamming of real radio environments, collapsing into the familiar cliff effect once the error rate crosses a threshold. The premise of this research line is that, for images, perfect bit recovery is the wrong objective: what a human observer needs is the meaning of the image — its edges, shapes, and structure — not the exact value of every pixel.
+We therefore design a deep learning-based semantic communication system whose encoder, built from convolutional and residual layers, learns to compress the semantic essence of an image, while a Vision Transformer (ViT) decoder reconstructs global structure and detail at the receiver. Because the latent representation carries meaning rather than literal bits, a perceptually accurate image can be recovered even when many physical-layer symbols are corrupted. We further pair this codec with Alamouti space-time block coding and its OSTBC and OSFBC variants — finding that the better mapping is the one aligned with the more stable channel dimension — and validate the full pipeline on a real LTE-based MU-MIMO testbed using USRP software-defined radios. Across simulation and over-the-air experiments under noise, Rayleigh fading, and deliberate jamming, the proposed models consistently achieve higher structural similarity index (SSIM) and lower mean squared error (MSE) than 256-QAM and 64-QAM baselines, with the largest gains in the low-SNR, adversarial regime.</p>
+<ol>
+<li><p>S. R. Doha and A. Abdelhadi, &ldquo;Image Transmission with Semantic Communication using Alamouti Scheme,&rdquo; 2024 International Conference on Computer and Applications (ICCA), 2024. (<a href="https://ieeexplore.ieee.org/document/10928141/">IEEE <i>Xplore</i></a>)</p>
+</li>
+<li><p>S. R. Doha, I. Mahmud, and A. Abdelhadi, &ldquo;SDR Implementation of MU-MIMO Semantic Communication under Jamming Attacks,&rdquo; IEEE CARS, 2025.  (<a href="https://ieeexplore.ieee.org/document/11337895/">IEEE <i>Xplore</i></a>)</p>
+</li>
+<li><p>S. R. Doha and A. Abdelhadi, &ldquo;Resilient Semantic Image Delivery Under Jamming Attacks: A Comparative Study of OSTBC and OSFBC,&rdquo; IEEE CARS, 2025. (<a href="https://ieeexplore.ieee.org/document/11337263">IEEE <i>Xplore</i></a>)</p>
+</li>
+</ol>
+<h2>Artificial Intelligence in Wireless Communication</h2>
+<table class="imgtable"><tr><td>
+<a href="AI_Wireless.png"><img src="AI_Wireless.png" alt="alt text" width="800px" /></a>&nbsp;</td>
+<td align="left"></td></tr></table>
+<p>Traditional wireless receivers are engineered as a chain of hand-crafted, model-based blocks — synchronization, channel estimation, equalization, demodulation, decoding — each derived from elegant but rigid assumptions that strain under the dynamic, nonlinear channels of modern networks. Deep learning offers a different proposition: rather than encoding our assumptions into fixed algorithms, we let the receiver learn the mapping from received to transmitted signals directly from data and adapt as conditions change. This research direction surveys, organizes, and critically examines how that shift is playing out across the wireless stack.
+The first survey takes a receiver-centric view, walking through the receiver chain module by module and matching each stage to the deep learning architecture best suited to it — mapping MLPs, CNNs, RNNs, GANs, and autoencoders onto the tasks they serve best — before broadening to semantic and task-oriented receivers, OFDM and MIMO, Next-G and high-mobility links, and learned interference cancellation. The second survey addresses the gap between simulation and real hardware, using software-defined radio (SDR) as the bridge to validate learning-based methods over the air. Tracing a path from classical prototypes to AI-enabled successors, it covers cognitive radio (spectrum sensing, dynamic access, handoff, and O-RAN control) and physical-layer cybersecurity (jamming, spoofing, and eavesdropping detection and mitigation), while remaining honest about open problems such as wideband real-time scanning, robustness to correlated noise, and the recurring cost of retraining. Together, the two surveys offer a practical reference for moving from abstract AI ideas toward reproducible, hardware-grounded wireless systems.</p>
+<ol>
+<li><p>S. R. Doha and A. Abdelhadi, &ldquo;Deep Learning in Wireless Communication Receivers: A Survey,&rdquo; IEEE Access, 2025. (<a href="https://ieeexplore.ieee.org/document/11053759/">IEEE <i>Xplore</i></a>)  </p>
+</li>
+<li><p>S. R. Doha and A. Abdelhadi, &ldquo;Artificial Intelligence in Software Defined Radio: A Survey,&rdquo; IEEE Access, 2025. (<a href="https://ieeexplore.ieee.org/document/11456026/">IEEE <i>Xplore</i></a>) </p>
 </li>
 </ol>
 <h2>Modulation Classification Resiliency Against Adversarial Attacks using Mixture GAN</h2>
@@ -372,7 +398,7 @@ device failures. The detection for DDoS attack and emergency senarios involves b
 </ol>
 <div id="footer">
 <div id="footer-text">
-Page generated 2026-08-20 13:02:48 CDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
+Page generated 2026-08-20 13:26:05 CDT, by <a href="http://jemdoc.jaboc.net/">jemdoc</a>.
 </div>
 </div>
 </td>
